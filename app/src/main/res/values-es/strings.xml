@@ -1,0 +1,444 @@
+<resources>
+    <string name="app_name">Exámenes de Cálculo</string>
+    <string name="generating">Generando Examen ...</string>
+    <string name="please">Por favor espere unos segundos</string>
+    <string name="view">Ver Explicación</string>
+    <string name="check">Verificar Respuesta</string>
+    <string-array name="exercises" formatted="false">
+        <item>
+Text@Evaluar el límite: $$\\lim \\limits_{x \\rightarrow -2} (3x^4 + 2x^2 -x + 1)$$ y selecciona la respuesta correcta.%
+Solution@$$\\lim\\limits_{x\\rightarrow -2} (3x^4 +2x^2 -x+1)$$ $$=\\lim\\limits_{x\\rightarrow -2} 3x^4 + \\lim\\limits_{x\\rightarrow -2} 2x^2 -\\lim\\limits_{x\\rightarrow -2} x + \\lim\\limits_{x\\rightarrow -2} 1 $$ $$= 3\\lim\\limits_{x\\rightarrow -2} x^4 +2\\lim\\limits_{x\\rightarrow -2} x^2 - \\lim\\limits_{x\\rightarrow -2} x + \\lim\\limits_{x\\rightarrow -2} 1 $$ $$= 3(-2)^4 + 2(-2)^2 -(-2)+(1) $$ $$= 48 + 8 + 2 + 1 $$ $$= 59$$%
+Topic@ 1%
+options@ $$59$$# $$55$$# $$60$$# $$23$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$\\lim \\limits_{x \\rightarrow -4} \\frac{x^2 + 5x + 4}{x^2 + 3x + 4}$$ y selecciona la respuesta correcta.%
+Solution@$$\\lim \\limits_{x \\rightarrow -4} \\frac{x^2 + 5x + 4}{x^2 + 3x + 4} $$ $$= \\lim\\limits_{x \\rightarrow -4} \\frac{(x+ 4)(x+1)}{(x+4)(x-1)}$$ $$= \\lim\\limits_{x\\rightarrow -4} \\frac{x+1}{x-1} $$ $$= \\frac{-4 + 1}{-4 - 1} $$ $$= \\frac{-3}{-5} $$ $$= \\frac{3}{5}$$%
+Topic@ 1%
+options@ $$\\frac{3}{5}$$# no existe# $$-\\frac{3}{5}$$# $$-1$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{h \\rightarrow 0} \\frac{(4+h)^2 - 16}{h} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{h \\rightarrow 0} \\frac{(4+h)^2 - 16}{h} $$ $$= \\lim \\limits_{h \\rightarrow 0} \\frac{(16 + 8h + h^2) - 16}{h} $$ $$= \\lim \\limits_{h \\rightarrow 0} \\frac{8h + h^2}{h} $$ $$= \\lim \\limits_{h \\rightarrow 0} \\frac{h(8 + h)}{h} $$ $$= \\lim \\limits_{h \\rightarrow 0} (8 + h) $$ $$= 8 + 0 $$ $$= 8 $$%
+Topic@ 1%
+options@ $$8$$# no existe# $$0$$# $$23$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow 7} \\frac{ \\sqrt{x + 2} - 3 }{x - 7} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow 7} \\frac{ \\sqrt{x + 2} - 3 }{x - 7} $$ $$= \\lim \\limits_{x \\rightarrow 7} \\frac{ \\sqrt{x + 2} - 3 }{x - 7} \\cdot \\frac{ \\sqrt{x + 2} + 3 }{\\sqrt{x+2}+3} $$ $$= \\lim \\limits_{x \\rightarrow 7} \\frac{ (x + 2) - 9 }{(x - 7)\\left( \\sqrt{x+2} + 3 \\right)} $$ $$= \\lim \\limits_{x \\rightarrow 7} \\frac{ x - 7 }{(x - 7)\\left( \\sqrt{x+2} + 3 \\right)} $$ $$= \\lim \\limits_{x \\rightarrow 7} \\frac{ 1 }{ \\sqrt{x+2} + 3 } $$ $$= \\frac{ 1}{ \\sqrt{7+2} + 3 } $$ $$= \\frac{1}{3 +3} $$ $$= \\frac{1}{6} $$%
+Topic@ 1%
+options@ $$8$$# no existe# $$0$$# $$23$$#
+</item>
+
+        <item>
+Text@Tenemos que:  \\(f(x) = (4 - x^2)\\) si \\( x \\leq 2\\) y \\(f(x)= (x-1)\\) si \\(x > 2\\) Encuentra $$ \\lim \\limits_{x \\rightarrow 2^{-}} f(x)\\ y\\ \\lim \\limits_{x \\rightarrow 2^+} f(x) $$ y selecciona la respuesta correcta.%
+Solution@$$\\lim \\limits_{x \\rightarrow 2^{-}} f(x) $$ $$= \\lim \\limits_{x \\rightarrow 2^{-}} (4-x^2) $$ $$= \\lim \\limits_{x \\rightarrow 2^{-}} 4 - \\lim \\limits_{x \\rightarrow 2^{-}} x^2 $$ $$= 4 - 2^2 $$ $$= 0$$
+$$\\lim \\limits_{x \\rightarrow 2^+} f(x) $$ $$= \\lim \\limits_{x \\rightarrow 2^+} (x-1) $$ $$= \\lim \\limits_{x \\rightarrow 2^+} x - \\lim \\limits_{x \\rightarrow 2^+} 1 $$ $$= 2 - 1 $$ $$= 1$$%
+Topic@ 1%
+options@ $$0\\ y\\ 1$$# $$0\\ y\\ -1$$# $$2\\ y\\ 1$$# $$2\\ y\\ -1$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow 2} \\frac{ \\sqrt{6 -	x} - 2 }{\\sqrt{3 - x} - 1} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow 2} \\frac{ \\sqrt{6 -	x} - 2 }{\\sqrt{3 - x} - 1} $$ $$= \\lim \\limits_{x \\rightarrow 2} \\left( \\frac{ \\sqrt{6 -	x} - 2 }{\\sqrt{3 - x} - 1} \\cdot \\frac{ \\sqrt{6 - x} + 2 }{\\sqrt{6- x}+2} \\cdot \\frac{ \\sqrt{3 - x} + 1 }{\\sqrt{3- x}+1} \\right) $$ $$= \\lim \\limits_{x \\rightarrow 2} \\left[ \\frac{ \\left(\\sqrt{6 -	x}\\right) ^2 - 2^2 }{\\left( \\sqrt{3 - x}\\right) ^2 - 1^2} \\cdot \\frac{ \\sqrt{3 - x} + 1 }{\\sqrt{6- x}+2} \\right] $$ $$= \\lim \\limits_{x \\rightarrow 2} \\left( \\frac{ 6 -	x - 4 }{3 - x - 1} \\cdot \\frac{ \\sqrt{3 - x} + 1 }{\\sqrt{6- x}+2} \\right) $$ $$= \\lim \\limits_{x \\rightarrow 2} \\left( \\frac{ 2 - x }{2 - x} \\cdot \\frac{ \\sqrt{3 - x} + 1 }{\\sqrt{6- x}+2} \\right) $$ $$=\\lim \\limits_{x \\rightarrow 2} \\frac{ \\sqrt{3 - x} + 1 }{\\sqrt{6- x}+2} $$ $$= \\frac{1 + 1}{2 + 2} $$ $$= \\frac{1}{2} $$%
+Topic@ 1%
+options@ $$\\frac{1}{2}$$# no existe# $$1$$# $$-1$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{ 3x^2 - x + 4 }{2x^2 + 5x - 8} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{ 3x^2 - x + 4 }{2x^2 + 5x - 8}$$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ \\left( 3x^2 - x + 4\\right)/x^2 }{\\left( 2x^2 + 5x - 8\\right)/x^2 }$$ $$=  \\frac{ \\lim \\limits_{x \\rightarrow \\infty} \\left( 3 - 1/x + 4/x^2 \\right) }{\\lim \\limits_{x \\rightarrow \\infty} \\left( 2 + 5/x - 8/x^2 \\right) }$$ $$ = \\frac{ \\lim \\limits_{x \\rightarrow \\infty} 3 - \\lim \\limits_{x \\rightarrow \\infty}(1/x) + \\lim \\limits_{x \\rightarrow \\infty} (4/x^2) }{\\lim \\limits_{x \\rightarrow \\infty} 2 + \\lim \\limits_{x \\rightarrow \\infty} (5/x) - \\lim \\limits_{x \\rightarrow \\infty}(8/x^2)  }$$ $$ = \\frac{ 3 - \\lim \\limits_{x \\rightarrow \\infty}(1/x) + 4 \\lim \\limits_{x \\rightarrow \\infty} (1/x^2) }{ 2 + 5 \\lim \\limits_{x \\rightarrow \\infty} (1/x) - 8 \\lim \\limits_{x \\rightarrow \\infty}(1/x^2)  }$$ $$ = \\frac{ 3 - 0 +4(0) }{2 + 5(0) -8(0) }$$ $$ = \\frac{3}{2} $$%
+Topic@ 1%
+options@ $$\\frac{3}{2}$$# no existe# $$1$$# $$-\\frac{3}{2}$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{ x^3 + 5x }{2x^3 - x^2 + 4} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{ x^3 + 5x }{2x^3 - x^2 + 4}$$ $$ $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ \\left( x^3 + 5x \\right) / x^3 }{\\left( 2x^3 - x^2 + 4\\right) /x^3} $$ $$=  \\frac{ \\lim \\limits_{x \\rightarrow \\infty} \\left( 1 + 5/x^2 \\right) }{\\lim \\limits_{x \\rightarrow \\infty} \\left( 2 - 1/x + 4/x^3 \\right) } $$ $$= \\frac{ \\lim \\limits_{x \\rightarrow \\infty} 1 + \\lim \\limits_{x \\rightarrow \\infty}(5/x^2) }{\\lim \\limits_{x \\rightarrow \\infty} 2 - \\lim \\limits_{x \\rightarrow \\infty} (1/x) + \\lim \\limits_{x \\rightarrow \\infty}(4/x^3)  } $$ $$= \\frac{ 1 + 5\\lim \\limits_{x \\rightarrow \\infty}(1/x^2)}{ 2 -  \\lim \\limits_{x \\rightarrow \\infty} (1/x) + 4 \\lim \\limits_{x \\rightarrow \\infty}(1/x^3)  }  $$ $$= \\frac{ 1 + 5(0) }{2 - (0) + 4(0) } $$ $$= \\frac{1}{2} $$%
+Topic@ 1%
+options@ $$\\frac{1}{2}$$# no existe# $$\\infty$$# $$0$$#
+</item>
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\sqrt{9x^2 + x} -3x $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\sqrt{9x^2 + x} -3x $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ \\left(\\sqrt{ 9x^2 + x} -3x \\right)\\left( \\sqrt{ 9x^2 + x} + 3x \\right)}{\\sqrt{ 9x^2 + x} + 3x } $$ $$=   \\lim \\limits_{x \\rightarrow \\infty}\\frac{ ( \\sqrt{9x^2 + x})^2 - (3x)^2 }{ \\sqrt{ 9x^2 + x} + 3x } $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ \\left( 9x^2 + x \\right) - 9x^2 }{ \\sqrt{ 9x^2 + x} + 3x } $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ x }{ \\sqrt{ 9x^2 + x} + 3x } $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ x/x }{ \\left(\\sqrt{ 9x^2 + x} + 3x\\right) /x } $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ 1 }{ \\left(\\sqrt{ 9x^2/x^2 + x/x^2} + 3x/x\\right)  } $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{ 1 }{ \\left(\\sqrt{ 9 + 1/x} + 3\\right)  } $$ $$= \\frac{ 1 }{\\sqrt{9} + 3 }  $$ $$= \\frac{ 1 }{3 + 3 } $$ $$= \\frac{1}{6} $$%
+Topic@ 1%
+options@ $$\\frac{1}{6}$$# no existe# $$\\infty$$# $$\\frac{1}{3}$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{x^3-2x+3}{5 - 2x^2} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{x^3 - 2x + 3}{5 - 2x^2}$$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{(x^3 - 2x + 3)/x^2}{(5 - 2x^2)/x^2} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{x - 2/x + 3/x^2}{5/x^2 - 2} $$ $$= -\\infty $$%
+Topic@ 1%
+options@ $$-\\infty$$# no existe# $$\\infty$$# $$\\frac{1}{3}$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{x+2}{\\sqrt{9x^2+1}} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{x+2}{\\sqrt{9x^2+1}} $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{(x+2)/x}{\\sqrt{9x^2+1}/x} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{(x+2)/x}{\\sqrt{9x^2+1}/\\sqrt{x^2}} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{(x+2)/x}{\\sqrt{(9x^2+1)/x^2}} $$ $$ =\\lim \\limits_{x \\rightarrow \\infty} \\frac{1+2/x}{\\sqrt{9+1/x^2}} $$ $$=\\frac{1 + 0}{\\sqrt{9 + 0}} $$ $$=\\frac{1}{3} $$%
+Topic@ 1%
+options@ $$\\frac{1}{3}$$# $$-\\infty$$# no existe# $$\\frac{1}{9}$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{\\sqrt{9x^6-x}}{x^3+1} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{\\sqrt{9x^6-x}}{x^3+1} $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{\\sqrt{9x^6-x}/x^3}{(x^3+1)/x^3} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{\\sqrt{9x^6-x}/\\sqrt{x^6}}{(x^3+1)/x^3} $$ $$=  \\frac{\\lim \\limits_{x \\rightarrow \\infty}\\sqrt{(9x^6-x)/x^6}}{\\lim \\limits_{x \\rightarrow \\infty}(x^3+1)/x^3} $$ $$= \\frac{\\lim \\limits_{x \\rightarrow \\infty}\\sqrt{9-1/x^5}}{\\lim \\limits_{x \\rightarrow \\infty}(1+1/x^3)} $$ $$=\\frac{\\sqrt{9+0}}{1+0} $$ $$= 3 $$%
+Topic@ 1%
+options@ $$3$$# $$\\infty$$# no existe# $$-3$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow -\\infty} \\frac{\\sqrt{9x^6-x}}{x^3+1} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow -\\infty} \\frac{\\sqrt{9x^6-x}}{x^3+1} $$ $$= \\lim \\limits_{x \\rightarrow -\\infty} \\frac{\\sqrt{9x^6-x}/x^3}{(x^3+1)/x^3} $$ $$=\\lim \\limits_{x \\rightarrow -\\infty} \\frac{\\sqrt{9x^6-x}/(-\\sqrt{x^6})}{(x^3+1)/x^3} $$ $$=  \\frac{\\lim \\limits_{x \\rightarrow -\\infty}-\\sqrt{(9x^6-x)/x^6}}{\\lim \\limits_{x \\rightarrow -\\infty}(x^3+1)/x^3} $$ $$= \\frac{\\lim \\limits_{x \\rightarrow -\\infty}-\\sqrt{9-1/x^5}}{\\lim \\limits_{x \\rightarrow -\\infty}(1+1/x^3)} $$ $$=\\frac{-\\sqrt{9+0}}{1+0} $$ $$= -3 $$%
+Topic@ 1%
+options@ $$-3$$# $$\\infty$$# no existe# $$3$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\left(\\sqrt{x^2 + ax} - \\sqrt{x^2 + bx}\\right) $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\left(\\sqrt{x^2 + ax} - \\sqrt{x^2 + bx}\\right) $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{\\left(\\sqrt{x^2 + ax} - \\sqrt{x^2 + bx}\\right)\\left(\\sqrt{x^2 + ax} + \\sqrt{x^2 + bx}\\right)}{\\sqrt{x^2 + ax} + \\sqrt{x^2 + bx}} $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{\\left(x^2 + ax\\right) - \\left( x^2 + bx\\right)}{\\sqrt{x^2 + ax} + \\sqrt{x^2 + bx}} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{ax-bx}{\\sqrt{x^2 + ax} + \\sqrt{x^2 + bx}} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{\\left[(a-b)x\\right]/x}{\\left(\\sqrt{x^2 + ax} + \\sqrt{x^2 + bx}\\right)/x} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{a-b}{\\left(\\sqrt{x^2 + ax} + \\sqrt{x^2 + bx}\\right)/\\sqrt{x^2}} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{a-b}{\\sqrt{x^2 + ax}/\\sqrt{x^2} + \\sqrt{x^2 + bx}/\\sqrt{x^2}} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{a-b}{\\sqrt{1 + a/x} + \\sqrt{1 + b/x}} $$ $$=\\frac{a-b}{\\sqrt{1 + 0} + \\sqrt{1 + 0}} $$ $$=\\frac{a-b}{2} $$%
+Topic@ 1%
+options@ $$\\frac{a-b}{2}$$# $$\\infty$$# no existe# $$0$$#
+</item>
+
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow -\\infty} \\left( x + \\sqrt{x^2 + 2x} \\right) $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow -\\infty} \\left( x + \\sqrt{x^2 + 2x} \\right) $$ $$=\\lim \\limits_{x \\rightarrow -\\infty} \\left( x + \\sqrt{x^2 + 2x} \\right) \\left[\\frac{ x - \\sqrt{x^2 + 2x} }{x - \\sqrt{x^2 + 2x}}\\right] $$ $$=\\lim \\limits_{x \\rightarrow -\\infty} \\frac{ x^2 - \\left( x^2 + 2x\\right) }{x - \\sqrt{x^2 + 2x}} $$ $$=\\lim \\limits_{x \\rightarrow -\\infty} \\frac{ -2x}{x - \\sqrt{x^2 + 2x}} $$ $$$$ $$=\\lim \\limits_{x \\rightarrow -\\infty} \\frac{ -2x/x}{\\left( x - \\sqrt{x^2 + 2x}\\right)/x} $$ $$= \\lim \\limits_{x \\rightarrow -\\infty} \\frac{ -2}{1 - \\sqrt{\\left( x^2 + 2x\\right)}/\\left(-\\sqrt{x^2}\\right)} $$ $$= \\lim \\limits_{x \\rightarrow -\\infty} \\frac{ -2}{1 + \\sqrt{1 + 2/x}} $$ $$=\\lim \\limits_{x \\rightarrow -\\infty} \\frac{ -2}{1 + \\sqrt{1 + 0}} $$ $$=-1 $$%
+Topic@ 1%
+options@ $$-1$$# $$\\infty$$# no existe# $$0$$#
+</item>
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{x + x^3 + x^5}{1 - x^2 + x^4} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\frac{x + x^3 + x^5}{1 - x^2 + x^4} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{\\left( x + x^3 + x^5\\right)/x^4}{\\left( 1 - x^2 + x^4\\right)/x^4} $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{1/x^3 + 1/x + x}{1/x^4 - 1/x^2 + 1} $$ $$= \\infty\\lim \\limits_{x \\rightarrow \\infty} \\frac{x + x^3 + x^5}{1 - x^2 + x^4} $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\frac{\\left( x + x^3 + x^5\\right)/x^4}{\\left( 1 - x^2 + x^4\\right)/x^4} $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\frac{1/x^3 + 1/x + x}{1/x^4 - 1/x^2 + 1} $$ $$= \\infty $$%
+Topic@ 1%
+options@ $$\\infty$$# $$1$$# no existe# $$0$$#
+</item>
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\tan^{-1}\\left(x^2 - x^4\\right) $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\tan^{-1}\\left(x^2 - x^4\\right) $$ $$=\\lim \\limits_{x \\rightarrow \\infty} \\tan^{-1}\\left(x^2\\left(1 - x^2\\right)\\right) $$ si we Tomando $$ t=x^2\\left(1-x^2\\right) $$ Entonces $$ t\\rightarrow -\\infty\\ as\\ x\\rightarrow \\infty $$ $$ \\Rightarrow \\lim \\limits_{x \\rightarrow \\infty} \\tan^{-1}\\left(x^2\\left(1 - x^2\\right)\\right) $$ $$= \\lim \\limits_{x \\rightarrow \\infty} \\tan^{-1}t $$ $$=-\\frac{\\pi}{2} $$%
+Topic@ 1%
+options@ $$-\\frac{\\pi}{2}$$# $$1$$# no existe# $$0$$#
+</item>
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow (\\pi/2)^+} e^{\\tan x} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow (\\pi/2)^+} e^{\\tan x} $$ How $$ \\tan x \\rightarrow -\\infty\\ Cuando\\ x \\rightarrow (\\pi/2)^+ $$ Entonces $$ \\lim \\limits_{x \\rightarrow (\\pi/2)^+} e^{\\tan x} =0$$%
+Topic@ 1%
+options@ $$0$$# $$1$$# no existe# $$\\infty$$#
+</item>
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{u \\rightarrow \\infty} \\frac{4u^4 + 5}{\\left( u^2 - 2\\right)\\left( 2u^2 -1\\right)} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{u \\rightarrow \\infty} \\frac{4u^4 + 5}{\\left( u^2 - 2\\right)\\left( 2u^2 -1\\right)} $$ $$=\\lim \\limits_{u \\rightarrow \\infty} \\frac{4u^4 + 5}{2u^4 -5u^2 +2} $$ $$=\\lim \\limits_{u \\rightarrow \\infty} \\frac{\\left(4u^4 + 5\\right)/u^4}{\\left(2u^4 -5u^2 +2\\right)/u^4} $$ $$=\\lim \\limits_{u \\rightarrow \\infty} \\frac{4 + 5/u^4}{2 -5/u^2 +2/u^4} $$ $$= \\frac{4 + 0}{2 -0 +0} $$ $$=2 $$%
+Topic@ 1%
+options@ $$2$$# $$\\infty$$# no existe# $$0$$#
+</item>
+        <item>
+Text@Evaluar el límite: $$ \\lim \\limits_{x \\rightarrow \\infty} \\sqrt{\\frac{12x^3 - 5x +2}{1 + 4x^2 + 3x^3}} $$ y selecciona la respuesta correcta.%
+Solution@$$ \\lim \\limits_{x \\rightarrow \\infty} \\sqrt{\\frac{12x^3 - 5x +2}{1 + 4x^2 + 3x^3}} $$ $$= \\sqrt{\\lim \\limits_{x \\rightarrow \\infty} \\frac{\\left(12x^3 - 5x +2\\right)/x^3}{\\left(1 + 4x^2 + 3x^3\\right)/x^3}} $$ $$=\\sqrt{\\lim \\limits_{x \\rightarrow \\infty} \\frac{12 - 5/x^2 +2/x^3}{1/x^3 + 4/x + 3}} $$ $$=\\sqrt{\\lim \\limits_{x \\rightarrow \\infty} \\frac{12 -0 +0}{0 +0 +3}} $$ $$= \\sqrt{\\frac{12}{3}} $$ $$=\\sqrt{4} $$ $$=2 $$%
+Topic@ 1%
+options@ $$2$$# $$\\infty$$# no existe# $$1$$#
+</item>
+        <item>
+Text@Determine dónde la función: $$ f(x)= \\left\\lbrace \\begin{matrix}\\frac{x^2 -x -2}{x-2} &amp; si\\ x\\neq2\\\\ 1 &amp; si\\ x=2 \\end{matrix}\\right.$$ es discontinua y selecciona la respuesta correcta.%
+Solution@Here f(2)=1 se define y $$ \\lim\\limits_{x\\rightarrow 2} f(x) $$ $$= \\lim\\limits_{x\\rightarrow 2} \\frac{x^2 - x -2}{x-2} $$ $$= \\lim\\limits_{x\\rightarrow 2} \\frac{(x+1)(x -2)}{x-2} $$ $$= \\lim\\limits_{x\\rightarrow 2} (x+1) $$ $$=3 $$ exists. But $$\\lim\\limits_{x\\rightarrow 2} f(x) \\neq f(2)$$ so f(x) no es continua en 2.%
+Topic@1%
+options@ $$2$$# es continua# $$3$$# $$0$$#
+</item>
+        <item>
+Text@Determina donde la función: $$ f(x)= \\left\\lbrace\\begin{matrix} 1 +x^2 &amp; si\\ x\\leq 0\\\\ 2 -x &amp; si\\ 0 &lt; x \\leq 2\\\\ (x -2)^2 &amp; si\\ x&gt;2 \\end{matrix} \\right. $$ es discontinua y selecciona la respuesta correcta.%
+Solution@ Aquí f(x) es continua sobre $$(-\\infty,0), (0,2),\\ y\\ (2,\\infty) $$ ya que es un polinomio en cada uno de estos intervalos. Ahora $$\\lim\\limits_{x\\rightarrow 0^{-}} f(x) $$ $$= \\lim\\limits_{x\\rightarrow 0^{-}} (1 +x^2)$$ $$ = 1 $$ y $$ \\lim\\limits_{x\\rightarrow 0^+} f(x)$$ $$=\\lim\\limits_{x\\rightarrow 0^+} (2-x)$$ $$= 2$$ entonces f(x) es discontinua en 0. Ya que f(0)=1, f(x) es continua desde la izquierda en 0. Also, $$\\lim\\limits_{x\\rightarrow 2^{-}} f(x) $$ $$= \\lim\\limits_{x\\rightarrow 2^{-}} (2 -x)$$ $$ =0, $$ $$ \\lim\\limits_{x\\rightarrow 2^+} f(x) $$ $$ =\\lim\\limits_{x\\rightarrow 2^+} (x-2)^2$$ $$ =0$$ y $$f(2) = 0$$ so f(x) es continua en 2. El único número en el que f (x) es continuo es 0.%
+Topic@1%
+options@ $$0$$# is continuous# \\(0\\) y \\(2\\)# $$2$$#
+</item>
+        <item>
+Text@Encuentra la recta tangente a la curva $$ y=\\frac{x-1}{x-2} $$ en el punto $$ (3;2) $$ y selecciona la respuesta correcta.%
+Solution@$$ m= \\lim \\limits_{x \\rightarrow 3} \\frac{\\frac{x-1}{x-2} -2}{x-3} $$ $$=\\lim \\limits_{x \\rightarrow 3} \\frac{\\frac{x-1 - 2(x-2)}{x-2}}{x-3} $$ $$= \\lim \\limits_{x \\rightarrow 3} \\frac{3-x}{(x-2)(x-3)} $$ $$=\\lim \\limits_{x \\rightarrow 3} \\frac{-1}{x-2} $$ $$=\\frac{-1}{1} = -1 $$ $$\\Rightarrow y-2 = -1(x-3)$$ $$\\Leftrightarrow y-2 = -x +3 $$ $$\\Leftrightarrow y = -x +5 $$%
+Topic@ 2%
+options@ $$y = -x +5$$# $$y =2$$# $$y = -x +1$$# $$y = x -1$$#
+</item>
+        <item>
+Text@Encuentra la recta tangente a la curva $$ y=\\frac{2x}{\\left(x+1\\right)^2} $$ en el punto $$ (0;0) $$ y selecciona la respuesta correcta.%
+Solution@$$ m= \\lim \\limits_{x \\rightarrow 0} \\frac{\\frac{2x}{(x+1)^2} -0}{x-0} $$ $$= \\lim \\limits_{x \\rightarrow 0} \\frac{2x}{x(x+1)^2} $$ $$=\\lim \\limits_{x \\rightarrow 0} \\frac{2}{(x+1)^2} $$ $$=\\frac{2}{1^2} $$ $$= 2 $$ $$\\Rightarrow y-0 = 2(x-0) $$ $$\\Leftrightarrow y = 2x $$%
+Topic@ 2%
+options@ $$y = 2x$$# $$y =0$$# $$y = -x +1$$# $$y = x -1$$#
+</item>
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=3 - 2x + 4x^2 $$ y selecciona la respuesta correcta.%
+Solution@$$ f^{"'"}(a)=\\lim\\limits_{h\\rightarrow 0} \\frac{f(a+h) - f(a)}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{[ 3 -2(a+h)+4(a+h)^2 ] - (3 -2a +4a^2)}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{ -2h+8ah+4h^2 }{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{ h(-2+8a+4h)}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} -2+8a+4h$$ $$= -2 +8a $$ $$ f^{"'"}(x)=-2 +8x $$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=-2 +8x$$# no existe# $$f^{"'"}(x)=-2 +4x$$# $$f^{"'"}(x)=-3 -2x$$#
+</item>
+        <item>
+Text@Encuentra la derivada de la función $$ f(t)=\\frac{2t +1}{t+3} $$ y selecciona la respuesta correcta.%
+Solution@$$ f^{"'"}(a)=\\lim\\limits_{h\\rightarrow 0} \\frac{f(a+h) - f(a)}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{\\frac{2(a+h) +1}{(a+h)+3} - \\frac{2a+1}{a+3}}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{(2a+2h+1)(a+3) - (2a+1)(a+h+3)}{h(a +h+3)(a+3)}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{(2a^2+6a+2ah+6h+a+3) - (2a^2+2ah+6a+a+h+3)}{h(a +h+3)(a+3)}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{ 5h}{h(a+h+3)(a+3)}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{5}{(a+h+3)(a+3)}$$ $$= \\frac{5}{(a+3)^2} $$ $$ f^{"'"}(t)=\\frac{5}{(t+3)^2} $$%
+Topic@ 2%
+options@ $$f^{"'"}(t)=\\frac{5}{(t+3)^2}$$# no existe# $$f^{"'"}(t)=\\frac{4t + 7}{(t+3)^2}$$# $$f^{"'"}(t)=\\frac{5}{(t+3)}$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=\\frac{1}{\\sqrt{x+2}} $$ y selecciona la respuesta correcta.%
+Solution@$$ f^{"'"}(a)=\\lim\\limits_{h\\rightarrow 0} \\frac{f(a+h) - f(a)}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{\\frac{1}{\\sqrt{(a+h)+2}} - \\frac{1}{\\sqrt{a+2}}}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{\\frac{\\sqrt{a+2} -\\sqrt{a+h+2}}{\\sqrt{a+h+2}\\sqrt{a+2}}}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\left[\\frac{\\sqrt{a+2} -\\sqrt{a+h+2}}{h\\sqrt{a+h+2}\\sqrt{a+2}}\\cdot \\frac{\\sqrt{a+2} +\\sqrt{a+h+2}}{\\sqrt{a+2}+\\sqrt{a+h+2}} \\right]$$ $$ =\\lim\\limits_{h\\rightarrow 0}\\frac{(a+2) -(a+h+2)}{h\\sqrt{a+h+2}\\sqrt{a+2}\\left( \\sqrt{a+2}+\\sqrt{a+h+2} \\right)}$$ $$ =\\lim\\limits_{h\\rightarrow 0}\\frac{-h}{h\\sqrt{a+h+2}\\sqrt{a+2}\\left( \\sqrt{a+2}+\\sqrt{a+h+2} \\right)}$$ $$ =\\lim\\limits_{h\\rightarrow 0}\\frac{-1}{\\sqrt{a+h+2}\\sqrt{a+2}\\left( \\sqrt{a+2}+\\sqrt{a+h+2} \\right)}$$ $$ =\\frac{-1}{\\left(\\sqrt{a+2}\\right)^2\\left( 2\\sqrt{a+2} \\right)}$$ $$ =-\\frac{1}{2\\left(a+2\\right)^{3/2}}$$ $$ f^{"'"}(x)=-\\frac{1}{2\\left(x+2\\right)^{3/2}}$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=-\\frac{1}{2\\left(x+2\\right)^{3/2}}$$# no existe# $$f^{"'"}(x)=\\frac{1}{2\\left(x+2\\right)^{3/2}}$$# $$f^{"'"}(x)=-\\frac{1}{2\\left(x+2\\right)^{1/2}}$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=x-\\frac{2}{x} $$ y selecciona la respuesta correcta.%
+Solution@$$ f^{"'"}(x)=\\lim\\limits_{h\\rightarrow 0} \\frac{f(x+h) - f(x)}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{\\left[x+h-\\frac{2}{x+h}\\right] - \\left[x-\\frac{2}{x}\\right]}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\frac{h-\\frac{2}{x+h} +\\frac{2}{x}}{h}$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\left[1 + \\frac{-2x+2(x+h)}{hx(x+h)}\\right]$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\left[1 + \\frac{2h}{hx(x+h)}\\right]$$ $$ =\\lim\\limits_{h\\rightarrow 0} \\left[1 + \\frac{2}{x(x+h)}\\right]$$ $$ =1 + \\frac{2}{x^2}$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=1 + \\frac{2}{x^2}$$# no existe# $$f^{"'"}(x)=1 - \\frac{2}{x^2}$$# $$f^{"'"}(x)=1 + \\frac{2}{x}$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=186.5 $$ y selecciona la respuesta correcta.%
+Solution@Is a constant function, so its derivative is 0, that is, $$f^{"'"}(x)=0$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=0$$# no existe# $$f^{"'"}(x)=1$$# $$f^{"'"}(x)=-1$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=2-\\frac{2}{3}x $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=0-\\frac{2}{3}$$ $$=-\\frac{2}{3}$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=-\\frac{2}{3}$$# no existe# $$f^{"'"}(x)=0$$# $$f^{"'"}(x)=\\frac{2}{3}$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=x^3-4x+6 $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=3x^{3-1}-4x^{1-1}+0$$ $$=3x^2-4$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=3x^2-4$$# no existe# $$f^{"'"}(x)=3x^2-4x$$# $$f^{"'"}(x)=x^2-4$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=5e^x+3 $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=5(e^x) + 0$$ $$ =5e^x$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=5e^x$$# no existe# $$f^{"'"}(x)=e^x$$# $$f^{"'"}(x)=5e^x+3$$#
+</item>
+        <item>
+Text@Encuentra la derivada de la función $$ f(t)=\\sqrt{t}-\\frac{1}{\\sqrt{t}} $$ y selecciona la respuesta correcta.%
+Solution@$$f(t)=\\sqrt{t}-\\frac{1}{\\sqrt{t}}$$ $$=t^{1/2}-t^{-1/2}$$ $$\\Rightarrow f^{"'"}(t)=\\frac{1}{2}t^{1/2-1}-\\left(-\\frac{1}{2}t^{-1/2-1}\\right)$$ $$=\\frac{1}{2}t^{-1/2}-\\left(-\\frac{1}{2}t^{-3/2}\\right)$$ $$=\\frac{1}{2\\sqrt{t}}+\\frac{1}{2t\\sqrt{t}}$$%
+Topic@ 2%
+options@ $$f^{"'"}(t)=\\frac{1}{2\\sqrt{t}}+\\frac{1}{2t\\sqrt{t}}$$# no existe# $$f^{"'"}(t)=\\frac{1}{2\\sqrt{t}}-\\frac{1}{2t\\sqrt{t}}$$# $$f^{"'"}(t)=0$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(t)=\\sqrt[3]{t^2}+2\\sqrt{t^3} $$ y selecciona la respuesta correcta.%
+Solution@$$ f(t)=\\sqrt[3]{t^2}+2\\sqrt{t^3} $$ $$=t^{2/3}+2t^{3/2}$$ $$\\Rightarrow f^{"'"}(t)=\\frac{2}{3}t^{2/3-1}+2\\left(\\frac{3}{2}\\right)t^{3/2-1}$$ $$=\\frac{2}{3}t^{-1/3}+3t^{1/2}$$ $$=\\frac{2}{3\\sqrt[3]{t}}+3\\sqrt{t}$$%
+Topic@ 2%
+options@ $$f^{"'"}(t)=\\frac{2}{3\\sqrt[3]{t}}+3\\sqrt{t}$$# no existe# $$f^{"'"}(t)=2\\sqrt{t}+3\\sqrt{t^2}$$# $$f^{"'"}(t)=\\frac{2}{3\\sqrt[3]{t}}+2\\sqrt{t}$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=x\\ln{x} $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=x\\left(\\ln{x}\\right)^{"'"} + \\ln{x}\\left(x\\right)^{"'"}$$ $$=x\\cdot\\frac{1}{x} + \\ln{x}\\cdot1$$ $$=1 + \\ln{x}$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=1 + \\ln{x}$$# no existe# $$f^{"'"}(x)=1 - \\ln{x}$$# $$f^{"'"}(x)=\\frac{1}{x}$$#
+</item>
+
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=\\frac{x+1}{x-1} $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=\\frac{(x-1)(x+1)^{"'"}-(x+1)(x-1)^{"'"}}{(x-1)^2}$$ $$=\\frac{(x-1)\\cdot 1-(x+1)\\cdot 1}{(x-1)^2}$$ $$=\\frac{-2}{(x-1)^2}$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=\\frac{-2}{(x-1)^2}$$# no existe# $$f^{"'"}(x)=\\frac{2x}{(x-1)^2}$$# $$f^{"'"}(x)=2x$$#
+</item>
+        <item>
+Text@Suponga que \\(f(5)=1, f^{"'"}(5)=6, g(5)=-3,\\) y \\(g^{"'"}(5)=2 \\). Encuentra los siguientes valores $$ (fg)^{"'"}(5), (f/g)^{"'"}(5), $$ $$(g/f)^{"'"}(5)$$ y selecciona la respuesta correcta.%
+Solution@$$(fg)^{"'"}(5)=f(5)g^{"'"}(5)+g(5)f^{"'"}(5)$$ $$=1\\cdot2+(-3)\\cdot6$$ $$=2-18$$ $$=-16$$ $$\\left(\\frac{f}{g}\\right)^{"'"}(5)=\\frac{g(5)f^{"'"}(5)-f(5)g^{"'"}(5)}{[ g(5)]^2}$$ $$=\\frac{-3\\cdot6-1\\cdot2}{(-3)^2}$$ $$=\\frac{-18-2}{9}$$ $$=-\\frac{20}{9}$$ $$\\left(\\frac{g}{f}\\right)^{"'"}(5)=\\frac{f(5)g^{"'"}(5)-g(5)f^{"'"}(5)}{[f(5)]^2}$$ $$=\\frac{1\\cdot 2 -(-3)\\cdot6}{1^2}$$ $$=\\frac{2+18}{1}$$ $$=20$$%
+Topic@ 2%
+options@ $$(fg)^{"'"}(5)=-16$$ $$(f/g)^{"'"}(5)=-20/9$$ $$(g/f)^{"'"}(5)=20$$# $$(fg)^{"'"}(5)=-16$$ $$(f/g)^{"'"}(5)=20/3$$ $$(g/f)^{"'"}(5)=20$$# $$(fg)^{"'"}(5)=20$$ $$(f/g)^{"'"}(5)=-20/9$$ $$(g/f)^{"'"}(5)=20$$# $$(fg)^{"'"}(5)=-16$$ $$(f/g)^{"'"}(5)=-16/9$$ $$(g/f)^{"'"}(5)=20$$#
+</item>
+        <item>
+Text@Suponga que \\(f(3)=4, f^{"'"}(3)=-6,g(3)=2,\\) y \\(g^{"'"}(3)=5 \\). Encuentra los siguientes valores $$ (f+g)^{"'"}(3),(f/g)^{"'"}(3), $$ $$\\left(\\frac{f}{f-g}\\right)^{"'"}(3)$$ y selecciona la respuesta correcta.%
+Solution@$$(f+g)^{"'"}(3)=f^{"'"}(3) + g^{"'"}(3)$$ $$=-6+5$$ $$=-1,$$ $$\\left(\\frac{f}{g}\\right)^{"'"}(3)=\\frac{g(3)f^{"'"}(3) -f(3)g^{"'"}(3)}{[g(3)]^2}$$ $$=\\frac{2\\cdot(-6)-4\\cdot 5}{(2)^2}$$ $$=\\frac{-32}{4}$$ $$=-8,$$ $$\\left(\\frac{f}{f-g}\\right)^{"'"}(3)=$$ $$= \\frac{[f(3)-g(3)]f^{"'"}(3)-f(3)[f(3)-g(3)]^{"'"}}{[f(3)-g(3)]^2}$$ $$= \\frac{[f(3)-g(3)]f^{"'"}(3)-f(3)[f^{"'"}(3)-g^{"'"}(3)]}{[f(3)-g(3)]^2}$$ $$= \\frac{(4-2)(-6)-4(-6-5)}{(4-2)^2}$$ $$=\\frac{-12+44}{2^2}$$ $$=8$$%
+Topic@ 2%
+options@ $$(f+g)^{"'"}(3)=-1$$ $$(f/g)^{"'"}(3)=-8$$ $$\\left(\\frac{f}{f-g}\\right)^{"'"}(3)=8$$# $$(f+g)^{"'"}(3)=11$$ $$(f/g)^{"'"}(3)=-8$$ $$\\left(\\frac{f}{f-g}\\right)^{"'"}(3)=8$$# $$(f+g)^{"'"}(3)=-1$$ $$(f/g)^{"'"}(3)=2$$ $$\\left(\\frac{f}{f-g}\\right)^{"'"}(3)=8$$# $$(f+g)^{"'"}(3)=-1$$ $$(f/g)^{"'"}(3)=-8$$ $$\\left(\\frac{f}{f-g}\\right)^{"'"}(3)=16$$#
+</item>
+        <item>
+Text@Encuentra la derivada de la función $$ f(x)=\\tan^{-1}\\left(x-\\sqrt{x^2+1}\\right) $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=\\left[\\left(\\tan^{-1}\\right)^{"'"}\\left(x-\\sqrt{x^2+1}\\right)\\right]\\left(x-\\sqrt{x^2+1}\\right)^{"'"}$$ $$= \\frac{1}{1+\\left(x-\\sqrt{x^2+1}\\right)^2}\\left(1-\\frac{2x}{2\\sqrt{x^2+1}} \\right)$$ $$= \\frac{1}{1+\\left(x-\\sqrt{x^2+1}\\right)^2}\\left(1-\\frac{x}{\\sqrt{x^2+1}} \\right)$$ $$= \\frac{1}{1+x^2-2x\\sqrt{x^2+1}+x^2+1}\\left(\\frac{\\sqrt{x^2+1}- x}{\\sqrt{x^2+1}} \\right)$$ $$= \\frac{1}{2\\left(1+x^2-x\\sqrt{x^2+1}\\right)}\\left(\\frac{\\sqrt{x^2+1}- x}{\\sqrt{x^2+1}} \\right)$$ $$= \\frac{\\sqrt{x^2+1}- x}{2\\left(1+x^2-x\\sqrt{x^2+1}\\right)\\sqrt{x^2+1}}$$ $$= \\frac{\\sqrt{x^2+1}- x}{2\\left[\\sqrt{x^2+1}\\left(1+x^2\\right)-x\\left(x^2+1\\right)\\right]}$$ $$= \\frac{\\sqrt{x^2+1}- x}{2\\left(1+x^2\\right)\\left(\\sqrt{x^2+1}-x\\right)}$$ $$= \\frac{1}{2\\left(1+x^2\\right)}$$%
+Topic@ 2%
+options@ $$f^{"'"}(x)=\\frac{1}{2\\left(1+x^2\\right)}$$# $$f^{"'"}(x)=\\frac{1}{1+x^2}$$# $$f^{"'"}(x)=\\frac{1}{\\left(1+x^2\\right)^2}$$# $$f^{"'"}(x)=\\frac{x}{2\\left(1+x^2\\right)}$$#
+</item>
+        <item>
+Text@Encuentra $$f^{"'""'"}(x)$$ de la función $$ f(x)=(1-7x)^6 $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=6(1-7x)^5(-7)$$ $$=-42(1-7x)^5$$ $$\\Rightarrow f^{"'""'"}(x)=-42\\cdot5(1-7x)^4(-7)$$ $$=1470(1-7x)^4$$%
+Topic@ 2%
+options@ $$f^{"'""'"}(x)=1470(1-7x)^4$$# $$f^{"'""'"}(x)=1470(1-7x)^3$$# $$f^{"'""'"}(x)=-210(1-7x)^4$$# $$f^{"'""'"}(x)=-35(1-7x)^4$$#
+</item>
+
+        <item>
+Text@Calcula $$f^{"'""'"}(x)$$ en la función $$ f(x)=\\sqrt{x^2+1} $$ y selecciona la respuesta correcta.%
+Solution@$$f^{"'"}(x)=\\frac{1}{2}\\left(x^2+1\\right)^{-1/2}(2x)$$ $$=\\frac{x}{\\sqrt{x^2+1}}$$ $$\\Rightarrow f^{"'""'"}(x)=\\frac{\\sqrt{x^2+1}\\cdot 1 -x\\left[\\frac{1}{2}\\left(x^2+1\\right)^{-1/2}(2x)\\right]}{\\left(\\sqrt{x^2+1}\\right)^2}$$ $$=\\frac{\\left(x^2+1\\right)^{1/2} -\\left[x^2\\left(x^2+1\\right)^{-1/2}\\right]}{x^2+1}$$ $$=\\frac{\\left(x^2+1\\right)^{-1/2} \\left[\\left(x^2+1\\right)-x^2\\right]}{x^2+1}$$ $$=\\frac{1}{\\left(x^2+1\\right)^{3/2}}$$%
+Topic@ 2%
+options@ $$f^{"'""'"}(x)=\\frac{1}{\\left(x^2+1\\right)^{3/2}}$$# $$f^{"'""'"}(x)=\\frac{1}{\\left(x^2+1\\right)^{1/2}}$$# $$f^{"'""'"}(x)=\\frac{2x^2 +1}{\\left(x^2+1\\right)^{3/2}}$$# $$f^{"'""'"}(x)=\\frac{x^2}{x^2+1}$$#
+</item>
+
+        <item>
+Text@El movimiento de un resorte que está sujeto a una fuerza de fricción o una fuerza de amortiguación (como un amortiguador en un automóvil) a menudo se modela mediante el producto de una función exponencial y una función de seno o coseno. Suponga que la ecuación de movimiento de un punto en tal resorte es $$ s(t) = 2e^{- 1.5t} \\sin2 \\pi t $$ donde s se mide en centímetros y t en segundos. Encuentra la velocidad después de t segundos y selecciona la respuesta correcta.%
+Solution@La velocidad después de t segundos es $$v(t)=s^{"'"}(t)$$ $$=2(-1.5)e^{-1.5t}\\sin2\\pi t +2\\cdot2\\pi e^{-1.5t}\\cos2\\pi t $$ $$=-3e^{-1.5t}\\sin2\\pi t +4\\pi e^{-1.5t}\\cos2\\pi t $$%
+Topic@ 2%
+options@ $$v(t)=-3e^{-1.5t}\\sin2\\pi t +4\\pi e^{-1.5t}\\cos2\\pi t $$# $$v(t)=2e^{-1.5t}\\sin2\\pi t +4\\pi e^{-1.5t}\\cos2\\pi t $$# $$v(t)=-3e^{-1.5t}\\sin2\\pi t +2\\pi e^{-1.5t}\\cos2\\pi t $$# $$v(t)=-6\\pi e^{-1.5t}\\cos2\\pi t $$#
+</item>
+        <item>
+Text@Una estrella variable Cefeida es una estrella cuyo brillo aumenta y disminuye alternativamente. La estrella de este tipo más fácilmente visible es Delta Cephei, para la cual el intervalo entre los momentos de brillo máximo es de 5.4 días. El brillo promedio de esta estrella es de 4.0 y su brillo cambia en \\(\\ pm0.35 \\). En vista de estos datos, el brillo de Delta Cephei en el tiempo t, donde t se mide en días, ha sido modelado por la función $$ B (t) = 4.0 + 0.35 \\sin \\left (\\frac {2 \\pi t} {5.4} \\right) $$ Calcula la tasa de cambio del brillo después de días, y encuentra, corrige con dos decimales, la tasa de aumento después de un día y selecciona la respuesta correcta.%
+Solution@$$B(t)=4.0+0.35\\sin\\left(\\frac{2\\pi t}{5.4} \\right)$$ $$\\Rightarrow \\frac{dB}{dt}(t) = \\left[0.35\\cos\\left( \\frac{2\\pi t}{5.4}\\right) \\right]\\left(\\frac{2\\pi}{5.4}\\right) $$ $$= \\frac{0.7\\pi}{5.4}\\cos\\left( \\frac{2\\pi t}{5.4}\\right) $$ $$= \\frac{7\\pi}{54}\\cos\\left( \\frac{2\\pi t}{5.4}\\right) $$ At t=1, $$\\frac{dB}{dt}(1)=\\frac{7\\pi}{54}\\cos\\left( \\frac{2\\pi}{5.4}\\right)$$ $$\\approx 0.16$$%
+Topic@ 2%
+options@ $$\\frac{dB}{dt}(t) =\\frac{7\\pi}{54}\\cos\\left( \\frac{2\\pi t}{5.4}\\right),$$ $$\\frac{dB}{dt}(1)\\approx 0.16$$# $$\\frac{dB}{dt}(t) =0.35\\cos\\left( \\frac{2\\pi t}{5.4}\\right),$$ $$\\frac{dB}{dt}(1)\\approx 0.16$$# $$\\frac{dB}{dt}(t) =\\frac{7\\pi}{54}\\cos\\left( \\frac{2\\pi t}{5.4}\\right),$$ $$\\frac{dB}{dt}(1)\\approx 0.2$$# $$\\frac{dB}{dt}(t) =\\frac{7\\pi}{54}\\cos\\left( \\frac{2\\pi t}{5.4}\\right),$$ $$\\frac{dB}{dt}(1)\\approx 0.161$$#
+</item>
+        <item>
+Text@Evalua la integral $$\\int\\limits_0^{\\pi/3}\\left(\\frac{\\sin\\theta +\\sin\\theta \\tan^2 \\theta}{\\sec^2\\theta}d\\theta \\right) $$  y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_0^{\\pi/3}\\left(\\frac{\\sin\\theta +\\sin\\theta \\tan^2 \\theta}{\\sec^2\\theta}\\right)d\\theta $$ $$= \\int\\limits_0^{\\pi/3}\\left(\\frac{\\sin\\theta ( 1 + \\tan^2 \\theta )}{\\sec^2\\theta}\\right) d\\theta$$ $$= \\int\\limits_0^{\\pi/3}\\left(\\frac{\\sin\\theta \\sec^2 \\theta}{\\sec^2\\theta} \\right)d\\theta $$ $$= \\int\\limits_0^{\\pi/3}\\sin\\theta d\\theta $$ $$= \\left[ -\\cos\\theta\\right]_0^{\\pi/3}$$ $$=-\\frac{1}{2} - (-1) $$ $$= \\frac{1}{2}$$%
+Topic@ 3%
+options@ $$\\frac{1}{2}$$# $$-\\frac{3}{2}$$# $$1$$# $$-\\frac{1}{2}$$#
+</item>
+
+        <item>
+Text@Evalua la integral $$\\int\\limits_0^{1}\\frac{4}{t^2 +1}dt $$  y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_0^{1}\\frac{4}{t^2+1}dt = 4\\int\\limits_0^{1}\\frac{1}{1 + t^2} dt $$ $$= 4\\left[ \\tan ^{-1} t \\right] _{0}^{1} $$ $$= 4 \\left( \\tan^{-1}1 - \\tan^{-1}0  \\right)$$ $$=4\\left( \\frac{\\pi}{4} -0 \\right)$$ $$=\\pi$$%
+Topic@ 3%
+options@ $$\\pi$$# $$\\pi /4$$# $$-\\pi$$# $$-\\pi /4$$#
+</item>
+        <item>
+Text@Evalua la integral $$\\int\\limits_1^{2}\\frac{4 + u^2}{u^3}du $$  y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_1^{2}\\frac{4 + u^2}{u^3}du = \\int\\limits_1^{2} \\left( 4u^{-3} + u^{-1} \\right) du $$ $$= \\left[ \\frac{4}{-2} u^{-2} + \\ln |u| \\right] _{1}^{2} $$ $$= \\left[ \\frac{-2}{u^{2}}  + \\ln |u| \\right] _{1}^{2}$$ $$=\\left( -\\frac{1}{2} +\\ln 2 \\right) - \\left( -2 +\\ln 1 \\right)$$ $$=\\frac{3}{2} + \\ln 2$$%
+Topic@ 3%
+options@ $$\\frac{3}{2} + \\ln 2$$# $$\\frac{3}{2} - \\ln 2$$# $$-\\frac{3}{2} + \\ln 2$$# $$-3 + \\ln 2$$#
+</item>
+
+        <item>
+Text@Evalua la integral \\( \\int\\limits_{-\\pi}^{\\pi}f(x)dx \\), donde $$f(x)= $$ $$\\left\\lbrace \\begin{matrix}x,&amp;&amp;si\\ \\ -\\pi\\leq x\\leq 0\\\\ \\sin x,&amp;&amp;si\\ \\ 0&lt; x\\leq\\pi\\end{matrix} \\right.$$  y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_{-\\pi}^{\\pi}f(x)dx = \\int\\limits_{-\\pi}^{0} x dx + \\int\\limits_{0}^{\\pi} \\sin x dx $$ $$= \\left[ \\frac{1}{2} x^{2} \\right] _{-\\pi}^{0} - \\left[ \\cos x\\right] _{0}^{\\pi}  $$ $$= \\left( 0 - \\frac{\\pi ^2}{2} \\right)  - \\left(\\cos \\pi - \\cos 0 \\right)$$ $$= -\\frac{\\pi^2}{2} -\\left( -1 -1 \\right)$$ $$=2- \\frac{\\pi^2}{2}$$%
+Topic@ 3%
+options@ $$2- \\frac{\\pi^2}{2}$$# $$2+ \\frac{\\pi^2}{2}$$# $$-2 - \\frac{\\pi^2}{2}$$# $$\\frac{\\pi^2}{2} -2$$#
+</item>
+
+        <item>
+Text@Evalua la integral $$\\int\\limits_{0}^{\\pi/4}\\frac{1 + \\cos^2 \\theta}{\\cos^2 \\theta}d\\theta $$ y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_{0}^{\\pi/4}\\frac{1 + \\cos^2 \\theta}{\\cos^2 \\theta}d\\theta =$$ $$ = \\int\\limits_{0}^{\\pi/4}\\left( \\frac{1}{\\cos^2 \\theta} + \\frac{\\cos^2 \\theta}{\\cos^2 \\theta}\\right) d\\theta $$ $$= \\int\\limits_{0}^{\\pi/4}\\left( \\sec^2 \\theta + 1\\right) d\\theta $$ $$= \\left[ \\tan \\theta + \\theta \\right] _{0}^{\\pi/4}  $$ $$= \\left( \\tan\\frac{\\pi}{4} + \\frac{\\pi}{4} \\right) -\\left( 0 +0 \\right)$$ $$=1+ \\frac{\\pi}{4}$$%
+Topic@ 3%
+options@ $$1+ \\frac{\\pi}{4}$$# $$1- \\frac{\\pi}{4}$$# $$1$$# $$-1$$#
+</item>
+        <item>
+Text@Evalua la integral $$\\int\\limits_{1}^{64}\\frac{1 + \\sqrt[3]{x}}{\\sqrt{x}}dx $$ y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_{1}^{64}\\frac{1 + \\sqrt[3]{x}}{\\sqrt{x}}dx = $$ $$ = \\int\\limits_{1}^{64}\\left(\\frac{1}{x^{1/2}}+ \\frac{x^{1/3}}{x^{1/2}}  \\right) dx$$ $$= \\int\\limits_{1}^{64}\\left(x^{-1/2}+ x^{1/3 -1/2}  \\right) dx $$ $$= \\int\\limits_{1}^{64}\\left(x^{-1/2}+ x^{-1/6}  \\right) $$ $$= \\left[ 2x^{1/2} + \\frac{6}{5}x^{5/6} \\right] _{1}^{64}$$ $$=\\left( 16 +\\frac{192}{5} \\right) - \\left( 2+ \\frac{6}{5} \\right)$$ $$=14 +\\frac{186}{5}$$ $$=\\frac{256}{5}$$%
+Topic@ 3%
+options@ $$\\frac{256}{5}$$# $$-\\frac{256}{5}$$# $$14$$# $$-14$$#
+</item>
+
+        <item>
+
+Text@Evalua la integral $$\\int\\limits_{-1}^{2}\\left( x- 2\\left|x\\right| \\right) dx $$ y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_{-1}^{2}\\left( x - 2\\left|x\\right| \\right) dx = $$ $$ = \\int\\limits_{-1}^{0}\\left[ x- 2(-x) \\right] dx + \\int\\limits_{0}^{2}\\left[ x- 2\\left( x \\right) \\right] dx$$ $$= \\int\\limits_{-1}^{0} 3x dx + \\int\\limits_{0}^{2}( -x )  dx $$ $$= 3\\left[ \\frac{1}{2}x^{2}\\right] _{-1}^{0} - \\left[ \\frac{1}{2}x^{2} \\right] _{0}^{2}$$ $$=3\\left( 0 -\\frac{1}{2} \\right) - \\left( 2- 0\\right)$$ $$=-\\frac{7}{2}$$ $$=-3.5$$%
+Topic@ 3%
+options@ $$-3.5$$# $$3.5$$# $$1.5$$# $$-1.5$$#
+</item> <!-- 6 -->
+        <item>
+Text@Evalua la integral $$\\int\\limits_{0}^{3\\pi/2}\\left(\\sin x\\right) dx $$ y selecciona la respuesta correcta.%
+Solution@$$\\int\\limits_{0}^{3\\pi/2}\\left(\\sin x\\right) dx = $$ $$ = \\int\\limits_{0}^{\\pi}\\sin x dx + \\int\\limits_{\\pi}^{3\\pi/2}\\left(-\\sin x\\right) dx$$ $$= \\left[ -\\cos x\\right] _{0}^{\\pi} + \\left[ \\cos x \\right] _{\\pi}^{3\\pi/2}$$ $$=\\left[ 1 -(-1) \\right] + \\left[ 0-(-1) \\right]$$ $$=2+1$$ $$=3$$%
+Topic@ 3%
+options@ $$3$$# $$-1$$# $$-3$$# $$1$$#
+</item> <!-- 7 -->
+        <item>
+Text@Evalua la integral $$\\int x^2\\sqrt{x^3 +1} dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=x^3+1 \\). Entonces \\( du=3x^2 dx \\) y \\( x^2 dx= \\frac{1}{3} du \\), so $$\\int x^2\\sqrt{x^3 +1} dx = \\int \\sqrt{u}\\left( \\frac{1}{3} du \\right)$$ $$=\\frac{1}{3}\\int \\sqrt{u} du $$ $$=\\frac{1}{3} \\frac{u^{3/2}}{3/2}+ C$$ $$=\\frac{1}{3}\\cdot \\frac{2}{3} u^{3/2} +C$$ $$=\\frac{2}{9}\\left(x^3+1\\right)^{3/2}+C$$%
+Topic@ 3%
+options@ $$\\frac{2}{9}\\left(x^3+1\\right)^{3/2}+C$$# $$\\left(x^3+1\\right)^{3/2}+C$$# $$\\left(x^3+1\\right)^{3/2}$$# $$\\frac{2}{9}\\left(x^3+1\\right)^{1/2}+C$$#
+</item> <!-- 8 -->
+        <item>
+Text@Evalua la integral $$\\int \\frac{4}{\\left( 1+ 2x \\right)^3} dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=1+2x \\). Entonces \\( du=2 dx \\) y \\( dx= \\frac{1}{2} du \\), so $$\\int \\frac{4}{(1+2x)^3} dx = 4\\int u^{-3} \\left( \\frac{1}{2} du \\right)$$ $$=2\\int u^{-3} du $$ $$=2 \\frac{u^{-2}}{-2}+ C$$ $$=-\\frac{1}{u^2}+C$$ $$=-\\frac{1}{(1+2x)^2}+C$$%
+Topic@ 3%
+options@ $$-\\frac{1}{(1+2x)^2}+C$$# $$\\frac{1}{(1+2x)^2}+C$$# $$\\frac{1}{(1+2x)^2}$$# $$-\\frac{1}{1+2x}+C$$#
+</item> <!-- 9 -->
+
+        <item>
+Text@Evalua la integral $$\\int \\frac{(\\ln x)^2}{x} dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=\\ln x \\). Entonces \\( du=\\frac{dx}{x} \\), so $$\\int \\frac{(\\ln x)^2}{x} dx = \\int u^{2} du $$ $$=\\frac{1}{3}u^3 +C $$ $$=\\frac{1}{3} (\\ln x)^3+ C$$%
+Topic@ 3%
+options@ $$\\frac{1}{3} (\\ln x)^3+ C$$# $$-(\\ln x)^3+ C$$# $$(\\ln x)^3+ C$$# $$\\frac{1}{2} (\\ln x)^3$$#
+</item> <!-- 10 -->
+
+        <item>
+Text@Evalua la integral $$\\int \\frac{\\tan ^{-1} x}{1+ x^2} dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=\\tan^{-1} x \\). Entonces \\( du=\\frac{dx}{1+x^2} \\), so $$\\int \\frac{\\tan ^{-1} x}{1+ x^2} dx = \\int u du $$ $$=\\frac{u^2}{2} +C $$ $$=\\frac{\\left( \\tan ^{-1} x \\right)^2}{2} +C$$%
+Topic@ 3%
+options@ $$\\frac{\\left( \\tan ^{-1} x \\right)^2}{2} +C$$# $$-\\frac{\\tan ^{-1} x }{2} +C$$# $$\\frac{ \\tan ^{-1} x }{2} +C$$# $$\\left( \\tan ^{-1} x \\right)^2$$#
+</item> <!-- 11 -->
+        <item>
+Text@Evalua la integral $$\\int\\limits _{0}^{\\sqrt{\\pi}} x \\cos (x^2) dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=x^2 \\), so \\( du=2x dx \\). Cuando \\( x=0,\\ u=0 \\); Cuando \\( x=\\sqrt{\\pi},\\ u=\\pi\\). Thus, $$\\int\\limits _{0}^{\\sqrt{\\pi}} x \\cos (x^2) dx = \\int\\limits _{0}^{\\pi} \\cos u\\left( \\frac{1}{2}du\\right) $$ $$=\\frac{1}{2}\\int\\limits _{0}^{\\pi} \\cos u du $$ $$=\\frac{1}{2}\\left[ \\sin u \\right]_{0}^{\\pi}$$ $$=\\frac{1}{2}(\\sin \\pi -\\sin 0)=0$$%
+Topic@ 3%
+options@ $$0$$# $$\\frac{1}{2}$$# $$1$$# $$-\\frac{1}{2}$$#
+</item> <!-- 12 -->
+
+        <item>
+Text@Evalua la integral $$\\int\\limits _{0}^{\\pi} \\frac{x\\sin x}{1+ \\cos^2 x}  dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=\\pi -x \\), Entonces \\( du=-dx \\). Cuando \\( x=\\pi,\\ u=0 \\); Cuando \\( x=0,\\ u=\\pi \\). So, $$I=\\int\\limits _{0}^{\\pi} \\frac{x\\sin x}{1+ \\cos^2 x}  dx $$ $$= -\\int\\limits _{\\pi}^{0} \\frac{(\\pi -u)\\sin (\\pi -u)}{2- \\sin^2 (\\pi -u)}  du $$ $$= \\int\\limits _{0}^{\\pi} \\frac{(\\pi -u)\\sin (\\pi -u)}{2- \\sin^2 (\\pi -u)}  du$$ how \\( \\sin(\\pi -u)= \\sin(u), \\forall u \\in [0, \\pi] \\) $$\\Rightarrow I= \\int\\limits _{0}^{\\pi} \\frac{(\\pi -u)\\sin u}{2- \\sin^2 u}  du$$ $$=\\pi\\int\\limits _{0}^{\\pi} \\frac{ \\sin x}{1+ \\cos^2 x}  dx - \\int\\limits _{0}^{\\pi} \\frac{ x\\sin x}{1+ \\cos^2 x}  dx$$ $$\\Rightarrow 2\\int\\limits _{0}^{\\pi} \\frac{ x\\sin x}{1+ \\cos^2 x}  dx = $$ $$ =\\pi \\int\\limits _{0}^{\\pi} \\frac{ \\sin x}{1+ \\cos^2 x}  dx$$ $$\\Rightarrow I=\\int\\limits _{0}^{\\pi} \\frac{ x\\sin x}{1+ \\cos^2 x}  dx =$$ $$=\\frac{\\pi}{2} \\int\\limits _{0}^{\\pi} \\frac{ \\sin x}{1+ \\cos^2 x}  dx$$ Tomando \\( u=\\cos x \\), Entonces \\( du=-\\sin xdx \\). Cuando \\( x=\\pi,\\ u=-1 \\); Cuando \\( x=0,\\ u=1 \\). So, $$I=-\\frac{\\pi}{2} \\int\\limits _{1}^{-1} \\frac{du}{1+ u^2 }$$ $$=\\frac{\\pi}{2} \\int\\limits _{-1}^{1} \\frac{du}{1+ u^2 }$$ $$=\\frac{\\pi}{2}\\left[ \\tan ^{-1} u \\right]_{-1}^{1}$$ $$=\\frac{\\pi}{2}\\left[ \\tan ^{-1} 1 -\\tan ^{-1}(-1) \\right]$$ $$= \\frac{\\pi}{2}\\left[\\frac{\\pi}{4}-\\left(-\\frac{\\pi}{4}\\right)\\right]=\\frac{\\pi^2}{4}$$%
+Topic@ 3%
+options@ $$\\frac{\\pi^2}{4}$$# $$-\\frac{\\pi^2}{2}$$# $$\\frac{\\pi}{2}$$# $$-\\frac{\\pi}{4}$$#
+</item> <!-- 13 -->
+        <item>
+Text@Evalua la integral $$\\int t\\sin 2t dt $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=t,\\ dv=\\sin 2tdt \\Rightarrow du=dt,\\ v=-\\frac{1}{2}\\cos 2t \\). Entonces $$\\int t\\sin tdt = $$ $$ = -\\frac{1}{2}t\\cos 2t -\\left( -\\frac{1}{2}\\int \\cos 2tdt \\right)$$ $$=-\\frac{1}{2}t\\cos2t + \\frac{1}{4}\\sin 2t +C $$%
+Topic@ 3%
+options@ $$-\\frac{1}{2}t\\cos2t + \\frac{1}{4}\\sin 2t +C$$# $$t\\cos2t + \\frac{1}{4}\\sin 2t +C$$# $$-\\frac{1}{2}t\\cos2t - \\frac{1}{4}\\sin 2t +C$$# $$-\\frac{1}{2}t\\cos2t + \\sin 2t +C$$#
+</item> <!-- 14 -->
+        <item>
+Text@Evalua la integral $$\\int x^2\\sin \\pi x dx $$ y selecciona la respuesta correcta.%
+Solution@Tomando \\( u=x^2,\\ dv=\\sin \\pi x dx \\Rightarrow du=2xdx,\\ v=-\\frac{1}{\\pi}\\cos \\pi x \\). Entonces $$I=\\int x^2\\sin \\pi xdx = $$ $$ = -\\frac{1}{\\pi}x^2\\cos \\pi x -\\left( -\\frac{2}{\\pi}\\int x\\cos \\pi xdx \\right)$$ $$=-\\frac{1}{\\pi}x^2\\cos \\pi x +\\frac{2}{\\pi}\\int x\\cos \\pi xdx \\ (*) $$ Seguidamente tomamos \\( u_1=x,\\ dv_1=\\cos \\pi x dx \\Rightarrow du_1=dx,\\ v_1=\\frac{1}{\\pi}\\sin \\pi x \\), so $$\\int x\\cos \\pi xdx = $$ $$ = \\frac{1}{\\pi}x\\sin \\pi x - \\frac{1}{\\pi}\\int \\sin \\pi xdx$$ $$=\\frac{1}{\\pi}x\\sin\\pi x+ \\frac{1}{\\pi ^2}\\cos\\pi x +C_1$$ Sustituting in \\( (*) \\), we get $$I=-\\frac{1}{\\pi}x^2\\cos \\pi x $$ $$ +\\frac{2}{\\pi}\\left( \\frac{1}{\\pi}x\\sin\\pi x+  \\frac{1}{\\pi ^2}\\cos\\pi x +C_1 \\right) $$ $$=-\\frac{1}{\\pi}x^2\\cos \\pi x +\\frac{2}{\\pi^2}x\\sin\\pi x+ $$ $$ \\frac{2}{\\pi ^3}\\cos\\pi x +C $$ donde \\( C=\\frac{2}{\\pi}C_1 \\).%
+Topic@ 3%
+options@ $$-\\frac{1}{\\pi}x^2\\cos \\pi x +\\frac{2}{\\pi^2}x\\sin\\pi x+$$ $$ \\frac{2}{\\pi ^3}\\cos\\pi x +C$$# $$-\\frac{1}{\\pi}x^2\\cos \\pi x +\\frac{2}{\\pi^2}x\\sin\\pi x $$ $$+ \\cos\\pi x +C$$# $$1$$# $$x^2\\cos \\pi x +\\frac{2}{\\pi^2}x\\sin\\pi x+ $$ $$ \\frac{2}{\\pi ^3}\\cos\\pi x +C$$#
+</item> <!-- 15 -->
+
+        <item>
+Text@Encuentre el área de la región limitada por las curvas: $$y=x^2,\\ y=x$$ y selecciona la respuesta correcta.%
+Solution@Las curvas se cortan cuando: $$ x=x^2 \\Rightarrow  x^2-x=0 $$ $$ \\Leftrightarrow x(x-1)=0 $$ $$\\Leftrightarrow x=0\\ y\\ x=1$$ So $$A= \\int\\limits _{0}^{1}\\left( x-x^2\\right) dx $$ $$=\\left[ \\frac{1}{2} x^2 -\\frac{1}{3}x^3 \\right] _{0}^{1}$$ $$= \\frac{1}{2} - \\frac{1}{3} =\\frac{1}{6}$$%
+Topic@ 3%
+options@ $$\\frac{1}{6}$$# $$-\\frac{3}{2}$$# $$1$$# $$-\\frac{1}{2}$$#
+</item> <!-- 16 -->
+        <item>
+Text@Encuentre el área de la región limitada por las curvas: $$y=1+\\sqrt{x},\\ y=\\frac{3+x}{3}$$ y selecciona la respuesta correcta.%
+Solution@Las curvas se cortan cuando: $$ 1+\\sqrt{x}=\\frac{3+x}{3}=1+\\frac{x}{3} $$ $$ \\Rightarrow  \\sqrt{x}=\\frac{x}{3} $$ $$ \\Rightarrow  x=\\frac{x^2}{9} $$ $$ \\Rightarrow 9x-x^2=0 $$ $$ \\Rightarrow x(9-x)=0 $$ $$\\Rightarrow x=0\\ or\\ x=9$$ So $$A= \\int\\limits _{0}^{9}\\left[\\left(1+\\sqrt{x}\\right) - \\left(\\frac{3+x}{3}\\right) \\right] dx $$ $$= \\int\\limits _{0}^{9}\\left[\\left(1+\\sqrt{x}\\right) - \\left(1+ \\frac{x}{3}\\right) \\right] dx $$ $$= \\int\\limits _{0}^{9}\\left(\\sqrt{x} - \\frac{1}{3}x\\right) dx $$ $$=\\left[ \\frac{2}{3} x^{3/2} -\\frac{1}{6}x^2 \\right] _{0}^{9}$$ $$= 18 - \\frac{27}{2} =\\frac{9}{2}$$%
+Topic@ 3%
+options@ $$=\\frac{9}{2}$$# $$-\\frac{1}{6}$$# $$1$$# $$\\frac{3}{2}$$#
+</item> <!-- 17 -->
+
+        <item>
+Text@Encuentre el área de la región limitada por las curvas: $$y=x,\\ y=\\sqrt[3]{x}$$ y selecciona la respuesta correcta.%
+Solution@Las curvas se cortan cuando: $$ x=\\sqrt[3]{x}$$ $$ \\Rightarrow  x^3=x $$ $$ \\Rightarrow  x^3-x=0 $$ $$ \\Rightarrow x(x^2-1)=0 $$ $$ \\Rightarrow x(x+1)(x-1)=0 $$ $$\\Rightarrow x=-1,\\ x=0\\ or\\ x=1$$ So $$A= \\int\\limits _{-1}^{1}\\left|\\sqrt[3]{x}-x \\right| dx $$ $$= \\int\\limits _{-1}^{0}\\left(x-\\sqrt[3]{x}\\right) dx + \\int\\limits _{0}^{1}\\left(\\sqrt[3]{x} -x\\right) dx $$ por simetría $$= 2\\int\\limits _{0}^{1}\\left(x^{1/3} -x\\right) dx $$ $$=2\\left[ \\frac{3}{4} x^{4/3} -\\frac{1}{2}x^2 \\right] _{0}^{1}$$ $$= 2\\left(\\frac{3}{4} - \\frac{1}{2}\\right) =\\frac{1}{2}$$%
+Topic@ 3%
+options@ $$\\frac{1}{2}$$# $$-\\frac{9}{2}$$# $$1$$# $$-\\frac{1}{2}$$#
+</item> <!-- 18 -->
+
+        <item>
+Text@Encuentre el área de la región limitada por las curvas: $$y=12-x^2,\\ y=x^2-6$$ y selecciona la respuesta correcta.%
+Solution@Las curvas se cortan cuando: $$ 12-x^2=x^2-6$$ $$ \\Leftrightarrow  2x^2=18 $$ $$ \\Leftrightarrow  x^2=9 $$ $$ \\Leftrightarrow x=\\pm 3$$  So $$A= \\int\\limits _{-3}^{3}\\left[\\left(12- x^2 \\right)-\\left(x^2-6\\right) \\right] dx $$ por simetría $$= 2\\int\\limits _{-3}^{3}\\left(18 -2x^2\\right) dx $$ $$=2\\left[ 18x -\\frac{2}{3}x^3 \\right] _{0}^{3}$$ $$= 2\\left[\\left(54 - 18\\right)-0\\right] =72$$%
+Topic@ 3%
+options@ $$72$$# $$-\\frac{3}{2}$$# $$1$$# $$\\frac{1}{2}$$#
+</item> <!-- 19 -->
+
+    </string-array>
+        <string-array name="topics">
+                <item>@string/limits</item>
+                <item>@string/derivates</item>
+                <item>@string/integrals</item>
+                <item>@string/mixed</item>
+        </string-array>
+
+        <string name="limits">LIMITES</string>
+        <string name="derivates">DERIVADAS</string>
+        <string name="integrals">INTEGRALES</string>
+        <string name="mixed">MEZCLADOS</string>
+    <string name="total">TOTAL</string>
+
+    <string name="banner">ca-app-pub-6420027936185714/9418336581</string>
+    <string name="banner1">ca-app-pub-6420027936185714/9690348066</string>
+    <string name="banner2">ca-app-pub-6420027936185714/1530632929</string>
+    <string name="inter">ca-app-pub-6420027936185714/5086734556</string>
+    <string name="msg">Por favor observa este anuncio para luego leer la explicacion del ejercicio</string>
+    <string name="rewarded_failed">El anuncio bonificado no se pudo mostrar debido a un error:</string>
+    <string name="rewarded_loading">El anuncio bonificado se está cargando...</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bar_back1"
+    android:layout_height="match_parent">
+
+        <com.google.android.gms.ads.AdView
+            android:layout_gravity="center"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner1"
+            />
+
+    <io.github.kexanie.library.MathView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        >
+     </io.github.kexanie.library.MathView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear0"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_back"
+        android:layout_height="wrap_content">
+    <io.github.kexanie.library.MathView
+            android:id="@+id/ans0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            >
+        </io.github.kexanie.library.MathView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear1"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_back"
+        android:layout_height="wrap_content">
+        <io.github.kexanie.library.MathView
+            android:id="@+id/ans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            >
+        </io.github.kexanie.library.MathView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear2"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_back"
+        android:layout_height="wrap_content">
+        <io.github.kexanie.library.MathView
+            android:id="@+id/ans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            >
+        </io.github.kexanie.library.MathView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear3"
+        android:layout_margin="5dp"
+        android:background="@drawable/selector_back"
+        android:layout_height="wrap_content">
+        <io.github.kexanie.library.MathView
+            android:id="@+id/ans3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            >
+        </io.github.kexanie.library.MathView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:text="@string/check"
+        android:id="@+id/check"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_enabled"
+        android:layout_height="45dp" />
+
+     <Button
+        android:id="@+id/view"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:text="@string/view"
+        android:layout_margin="10dp"
+        android:layout_gravity="center" android:textColor="@android:color/white"
+        android:background="@drawable/button_selector"
+        android:layout_height="45dp" />
+
+</LinearLayout>
+</ScrollView>

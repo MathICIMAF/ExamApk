@@ -1,0 +1,11 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# Project exclude paths
+/MathView-0.0.6/build/
